@@ -1701,6 +1701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1182316582}
   - component: {fileID: 1182316583}
+  - component: {fileID: 1182316584}
   m_Layer: 8
   m_Name: TrackStraight2
   m_TagString: Untagged
@@ -1743,6 +1744,19 @@ MonoBehaviour:
   transformBAttached: 0
   grabTransform: {fileID: 147343424}
   parentTransform: {fileID: 1182316582}
+--- !u!114 &1182316584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182316581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ebcfea435a02134d8cb8eb13708f27a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tolerance: 0.9
 --- !u!1 &1185686645
 GameObject:
   m_ObjectHideFlags: 0
@@ -2554,6 +2568,7 @@ GameObject:
   - component: {fileID: 1848168284}
   - component: {fileID: 1848168286}
   - component: {fileID: 1848168285}
+  - component: {fileID: 1848168289}
   m_Layer: 8
   m_Name: Mesh
   m_TagString: Untagged
@@ -2676,6 +2691,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848168282}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1848168289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848168282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ebcfea435a02134d8cb8eb13708f27a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tolerance: 0.9
 --- !u!1 &1864314294
 GameObject:
   m_ObjectHideFlags: 0
@@ -2924,6 +2952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2008740500}
   - component: {fileID: 2008740501}
+  - component: {fileID: 2008740502}
   m_Layer: 8
   m_Name: TrackStraight1
   m_TagString: Untagged
@@ -2966,6 +2995,19 @@ MonoBehaviour:
   transformBAttached: 0
   grabTransform: {fileID: 1138491994}
   parentTransform: {fileID: 2008740500}
+--- !u!114 &2008740502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008740499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ebcfea435a02134d8cb8eb13708f27a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tolerance: 0.9
 --- !u!1 &2011531850
 GameObject:
   m_ObjectHideFlags: 0
@@ -3214,6 +3256,7 @@ GameObject:
   - component: {fileID: 2110131946}
   - component: {fileID: 2110131950}
   - component: {fileID: 2110131949}
+  - component: {fileID: 2110131951}
   m_Layer: 8
   m_Name: Mesh
   m_TagString: TrackMesh
@@ -3336,6 +3379,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0.00000023841858}
+--- !u!114 &2110131951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110131944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ebcfea435a02134d8cb8eb13708f27a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tolerance: 0.9
 --- !u!1 &2121638952
 GameObject:
   m_ObjectHideFlags: 0
