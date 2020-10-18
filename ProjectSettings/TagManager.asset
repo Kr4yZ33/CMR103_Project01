@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - TrackL
+  - TrackR
+  - TrackLTransform
+  - TrackRTransform
+  - TrackTTransform
+  - TrackBTransform
+  - TrackMesh
+  - NoTrackConnection
+  - TrackTransformOpen
+  - TrackTransformClosed
   layers:
   - Default
   - TransparentFX
@@ -13,9 +23,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - TrainTrack
+  - TransformOpen
+  - TransformClosed
   - 
   - 
   - 

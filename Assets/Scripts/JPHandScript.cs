@@ -5,6 +5,7 @@ using UnityEngine;
 public class JPHandScript : MonoBehaviour
 {
     public JPColourChange theCube;
+    public TrackController trackController;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,7 @@ public class JPHandScript : MonoBehaviour
         {
             //is pinching., do something
             theCube.SetGreen();
+            trackController.isHeld = false;
 
         }
         else
